@@ -1,4 +1,3 @@
-//importing all the modules
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
@@ -6,7 +5,7 @@ var multer = require('multer');
 var upload = multer();
 var session = require('express-session');
 var cookieParser =require('cookie-parser');
-//setting up template
+
 app.set('view engine', 'pug');
 app.set('views','./views');
 
