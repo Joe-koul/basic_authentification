@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    title Login
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js")
+  body
+   .container
+    br
+    h2 Login
+    form(action = "/signup" method = "POST")
+      .form-group
+        label(for="username") Username:
+        input#email.form-control(type="text" placeholder="Enter username" name="uname" style="width:300px")
+      .form-group
+        label(for="pwd") Password:
+        input#pwd.form-control(type="password" placeholder="Enter password" name="pswd" style="width:300px")
+        br
+        button.btn.btn-success(type="Submit") Log me in
+   
