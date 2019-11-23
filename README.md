@@ -3,7 +3,9 @@ This is a a basic authentification system .The following code creates an account
 
 
 first run npm init -y (to create the package.json file) then
+
 the follwing dependencies need to be intalled :
+
 npm install -s express 
 
 npm install -g nodemon
